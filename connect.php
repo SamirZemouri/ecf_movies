@@ -11,8 +11,7 @@ try
     $db = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 } catch (PDOException $e) 
 {
-    print "Erreur :" . $e->getMessage() . "<br/>";
-    die;
+    echo "Erreur :" . $e->getMessage();
 }
 
 
