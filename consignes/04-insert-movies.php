@@ -23,9 +23,3 @@ if ($file !==FALSE) {
         $req_movies->execute();
     }
 }
-
-
-
-
-
-// SELECT TITLE.info movie 
